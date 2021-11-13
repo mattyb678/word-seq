@@ -1,4 +1,4 @@
-package com.github.mattyb678.word.seq;
+package com.github.word.seq;
 
 import picocli.CommandLine;
 import picocli.CommandLine.Command;

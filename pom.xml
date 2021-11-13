@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.github.mattyb678</groupId>
+    <groupId>com.github</groupId>
     <artifactId>word-seq</artifactId>
     <version>1.0-SNAPSHOT</version>
 
@@ -71,7 +71,7 @@
                             <transformers>
                                 <transformer implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer" />
                                 <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-                                    <mainClass>com.github.mattyb678.word.seq.MainCli</mainClass>
+                                    <mainClass>com.github.word.seq.MainCli</mainClass>
                                 </transformer>
                             </transformers>
                         </configuration>
@@ -92,7 +92,7 @@
                         <version>${graal-native-maven-plugin.version}</version>
                         <extensions>true</extensions>
                         <configuration>
-                            <mainClass>com.github.mattyb678.word.seq.MainCli</mainClass>
+                            <mainClass>com.github.word.seq.MainCli</mainClass>
                             <imageName>word-seq</imageName>
                             <buildArgs>
                                 --no-fallback

@@ -1,4 +1,4 @@
-package com.github.mattyb678.word.seq;
+package com.github.word.seq;
 
 import com.github.freva.asciitable.AsciiTable;
 import com.github.freva.asciitable.Column;
